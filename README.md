@@ -6,4 +6,8 @@ Multi-page website for a fictional luxury Balkan steakhouse in New York City. Pa
 
 ## Run locally
 
-Asset paths are absolute under `/personal/kajmak/`. Serve the site from a web root (for example XAMPP's `htdocs/personal/kajmak`) so they resolve.
+Static site with no build step. All paths are relative, so it works on GitHub Pages, on XAMPP, or with any static server:
+
+```bash
+python3 -m http.server 8000
+```
